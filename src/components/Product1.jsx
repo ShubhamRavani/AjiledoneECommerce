@@ -7,11 +7,11 @@ const Product1 = () => {
 
     const options = {
         method: 'GET',
-        url: process.env.REACT_APP_AMAZON_API_URL,
+        url: 'https://amazon24.p.rapidapi.com/api/product',
         params: { categoryID: 'aps', keyword: 'iphone', country: 'US', page: '1' },
         headers: {
-            'X-RapidAPI-Key': process.env.REACT_APP_RAPIDAPI_KEY,
-            'X-RapidAPI-Host': process.env.REACT_APP_AMAZON_RAPIDAPI_HOST
+            'X-RapidAPI-Key': '2f84a19e33msh4a754d8e4ea72fap1e018fjsneecd004a0fdc',
+            'X-RapidAPI-Host': 'amazon24.p.rapidapi.com'
         }
     };
     axios.request(options).then(function (response) {
