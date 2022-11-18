@@ -1,4 +1,10 @@
 .App {
+  width: 80%;
+  height: 50%;
+  display: inline;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +41,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

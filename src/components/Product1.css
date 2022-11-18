@@ -1,0 +1,89 @@
+.main-card {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 50px;
+    margin-left: 3%;
+}
+
+.posterimage {
+
+    display: inline-block;
+    width: 200px;
+    margin-inline-end: 15px;
+    height: 35vh;
+    background-color: #eeeeee;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.posterimage:hover {
+    cursor: pointer;
+    background-color: #ebebeb;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.line1 {
+    color: gray;
+    font-size: small;
+    line-height: 0%;
+}
+
+
+.head3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+
+.leftcard3 {
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.rightcard3 {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 50%;
+}
+
+.leftcard3:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+    transition: 0.3s;
+}
+
+.rightcard3:hover {
+    cursor: pointer;
+    background-color: #dbdbdb;
+    transition: 0.3s;
+}
+
+/* .rightcard3 {
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 100%;
+    text-align: center;
+    width: 35%;
+    height: 50%;
+    font-weight: bold;
+}
+
+.leftcard3 {
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 4%;
+    border-radius: 100%;
+    width: 35%;
+    height: 50%;
+    font-weight: bold;
+} */
